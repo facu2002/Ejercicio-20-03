@@ -1,0 +1,33 @@
+{
+  "name": "ejercicios-20-03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "doc": "typedoc",
+    "coverage": "nyc npm test && rm -rf .nyc_output",
+    "start1": "tsc-watch --onSuccess \"node dist/ejercicio-1/ejercicio-1.js\"",
+    "start2": "tsc-watch --onSuccess \"node dist/ejercicio-2/ejercicio-2.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "chai": "^4.3.7",
+    "coveralls": "^3.1.1",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "prettier": "^2.8.4",
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^6.0.0",
+    "typedoc": "^0.23.28",
+    "typescript": "^5.0.2"
+  }
+}
