@@ -36,4 +36,8 @@ export class Solver {
   get Data() {
     return this.data;
   }
+
+  setData(array: number[]) {
+    this.data = array;
+  }
 }

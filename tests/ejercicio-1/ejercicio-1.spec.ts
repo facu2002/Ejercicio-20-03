@@ -25,6 +25,7 @@ describe('Clase Solver', () => {
 
 
 describe('Clase Solver', () => {
+  mySolver1.setData([4, 7, 8, 1, 2, 9, 3, 5, 6]);
   it('SetStrategy : setter que establece el algoritmo que se quiere ejecutar', () => {
     expect(mySolver1.setStrategy(new MergeSort())).to.be.an.instanceOf(MergeSort);
   });
