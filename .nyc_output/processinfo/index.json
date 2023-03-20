@@ -1,1 +1,1 @@
-{"processes":{"930234ec-f2d9-4cd9-a873-0aaa877e5bd1":{"parent":null,"children":["934b7f88-23a5-4054-b251-102b5934d705"]},"934b7f88-23a5-4054-b251-102b5934d705":{"parent":"930234ec-f2d9-4cd9-a873-0aaa877e5bd1","children":[]}},"files":{"/home/usuario/ejercicios-20-03/src/ejercicio-1/ejercicio-1.ts":["934b7f88-23a5-4054-b251-102b5934d705"],"/home/usuario/ejercicios-20-03/src/ejercicio-2/ejercicio-2.ts":["934b7f88-23a5-4054-b251-102b5934d705"]},"externalIds":{}}
+{"processes":{},"files":{},"externalIds":{}}
